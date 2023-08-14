@@ -136,6 +136,7 @@
               <p>12.00-00.00</p>
               <label>Merkez</label>
               <p>Üsküdar/İSTANBUL</p>
+              <p></p>
           
              
               <!-- İletişim -->
@@ -149,6 +150,7 @@
 
               <label><br />Genel E-posta<br /></label>
               <p>iletisim@nihaiyazilim.com.tr</p>
+              <p></p>
             </div>
 
             <!-- Üyeler -->
@@ -167,6 +169,7 @@
               <p></p>
 
               <label>Mahir Selim | Proje Test</label>
+              <p></p>
               <p></p>
             </div>
 
@@ -191,6 +194,7 @@
 
               <label>nihaiyazilim.com.tr (WEB) 🟢</label>
               <p>Şuanda bulunduğunuz WEB sitesi. Selam ver! :D</p>
+              <p></p>
 
             </div>
 
@@ -198,7 +202,54 @@
             
             <div id="kariyer" class="tab-pane fade">
               <label>İş Başvurusu</label>
-              <p>İş başvurularına kapalıyız.</p>
+              <form action="https://formspree.io/f/xeqbapbv" method="POST">
+
+                <label for="rol">İş almak istediğiniz alan?</label>
+                <select id="rol" name="Rol" required="">
+                <option value="" disabled="" selected="">Lütfen seçiniz</option>
+                <option value="Reklam sorumlusu/Pazarlamacı">Reklam sorumlusu/Pazarlamacı</option>
+                <option value="Yardımcı">Yardımcı</option>
+                <option value="Moderatör">Moderatör</option>
+                <option value="Yazılımcı">Yazılımcı</option>
+                <option value="Çevirmen">Çevirmen</option>
+                <option value="Tasarımcı">Tasarımcı</option>
+                </select>
+
+                <label for="adiniz">Adınız:</label>
+                <input type="text" id="adiniz" name="Adi" required="">
+                <p></p>
+
+                <label for="discordid">Discord ID'niz:</label>
+                <input type="text" id="discordid" name="DiscordIdsi" required="">
+                <p></p>
+
+                <label for="yasiniz">Yaşınız:</label>
+                <input type="number" id="yasiniz" name="Yasi" required="" min="13">
+                <p></p>
+
+                <label for="sehiriniz">Yaşadığınız şehir (Yurtdışıysa Ülkeniz/Şehriniz şekilde yazınız):</label>
+                <input type="text" id="sehiriniz" name="Yasadigi Sehir" required="">
+                <p></p>
+
+                <label for="aciklama">Kendinizden bahsediniz (İlgi alanlarınız, çevrimiçi kalma süreniz vb.):</label>
+                <textarea id="aciklama" name="Kendi" required=""></textarea>
+                <p></p>
+
+                <label for="faydalari">Bize sağlayacağın faydalar (Yazılımcı, çevirmen yada tasarımcı olarak başvuruyorsanız hangi dilde/programda çalıştığınızı belirtiniz.):</label>
+                <textarea id="faydalari" name="Faydalari" rows="5" cols="50" required=""></textarea>
+                <p></p>
+    
+                <label for="bilgi">İşinizdeki profesyonelliğiniz (Az/Orta/Çok):</label>
+                <input type="text" id="profesyonellik" name="Profesyonelligi" required="">
+                <p></p>
+    
+                <label for="email">E-postanız (Size ulaşabileceğimiz bir e-posta adresi):</label>
+                <input type="email" id="email" name="Eposta" required="">
+                <p></p>
+
+                <input type="submit" value="Başvur">
+                <p></p>
+            </form>
               
               
               
