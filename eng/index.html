@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <title>Nihai Yazılım</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+   
+
+      .logo {
+        margin-top: 70px;
+        width: 300px;
+        margin-bottom: 50px;
+      }
+      .tab-content label:first-child {
+        margin-top: 20px;
+      }
+      .form-container {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      form label,
+      form select {
+        display: block;
+        margin-bottom: 10px;
+      }
+      form input,
+      form textarea {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      form textarea {
+        resize: vertical;
+        height: 150px;
+      }
+      form select {
+        width: 100%;
+        max-width: 300px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        font-size: 16px;
+        color: #333;
+      }
+      form select::-ms-expand {
+        display: none;
+      }
+      form select::after {
+        content: "\25BC";
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        font-size: 14px;
+        pointer-events: none;
+      }
+      form input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+      }
+      form input[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+    </style>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="designs/icon1x1.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="designs/icon1x1.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="designs/icon1x1.png"
+    />
+    <link rel="manifest" href="/site.webmanifest"/>
+  </head>
+  <body>
+    <a href="/">Türkçe versiyonu</a>
+    <br>
+    <div class="text-center">
+      <img
+        src="designs/nihai.png"
+        class="img-fluid logo"
+      />
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <ul class="nav nav-tabs">
+            <li class="active">
+              <a data-toggle="tab" href="#main">About Us</a>
+            </li>
+            <li><a data-toggle="tab" href="#iletisim">Contact</a></li>
+            <li><a data-toggle="tab" href="#projeler">Our Projects</a></li>
+            <li><a data-toggle="tab" href="#kariyer">Kariyer</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="main" class="tab-pane fade in active">
+              <label>Kuruluş Tarihi</label>
+              <p>10/08/2023</p>
+              <label>Geliştirdiğimiz Proje Türleri</label>
+              <p>Yapay Zeka(AI), Bot, WEB, Hile</p>
+              <label>Yayımlanmış Projelerimiz</label>
+              <p>BetterMod, OpenAI API Bypass, Wix/EditorX Premium Bypass</p>
+              <label>Ekip Büyüklüğü</label>
+              <p>5-6</p>
+              <label>Çalışma Saatleri</label>
+              <p>12.00-00.00</p>
+              <label>Merkez</label>
+              <p>Üsküdar/İSTANBUL</p>
+              <p></p>
+          
+             
+              <!-- İletişim -->
+              
+            </div>
+            <div id="iletisim" class="tab-pane fade">
+              <label>Discord Adresi</label>
+              <a href="https://discord.gg/PHyAEVU55R"
+                ><br />https://discord.gg/PHyAEVU55R<br
+              /></a>
+
+              <label><br />E-posta<br /></label>
+              <p>iletisim@nihaiyazilim.com.tr</p>
+              <p></p>
+            </div>
+
+
+            <!---Projeler--->
+
+            <div id="projeler" class="tab-pane fade">
+              
+              <label>OpenAI API Bypass</label>
+              <p>OpenAI API'lerinin kotalarını bypass eder ve kesintisiz kullanıma olanak verir. Satılıktır, iletişime geçebilirsiniz.</p>
+
+
+
+              <label>BetterMod</label>
+              <p>Discord üzerinde çalışan basit bir bottur. Yazılımı tamamlanmıştır ve şuanda TOP.GG üzerinde yayındadır.</p>
+
+              <label>Wix/EditorX Premium Bypass</label>
+              <p>Premiumsuz bir şekilde Wix yada EditorX reklamlarını siteden kaldırır ve alan adı ekleyebilmeyi sağlar. Satılıktır, iletişime geçebilirsiniz.</p>
+
+<label>CXC (Client of X's Confederation)</label>
+<p>Şimdilik bilgi veremiyoruz.</p>
+              <p></p>
+
+            </div>
+
+            <!---Kariyer--->
+            
+            <div id="kariyer" class="tab-pane fade">
+              <label>İş Başvurusu</label>
+              <form action="https://formspree.io/f/xeqbapbv" method="POST">
+
+                <label for="rol">İş almak istediğiniz alan?</label>
+                <select id="rol" name="Rol" required="">
+                <option value="" disabled="" selected="">Lütfen seçiniz</option>
+                <option value="Reklam sorumlusu/Pazarlamacı">Reklam sorumlusu/Pazarlamacı</option>
+                <option value="Yardımcı">Yardımcı</option>
+                <option value="Moderatör">Moderatör</option>
+                <option value="Yazılımcı">Yazılımcı</option>
+                <option value="Çevirmen">Çevirmen</option>
+                <option value="Tasarımcı (Adobe)">Tasarımcı (Adobe)</option>
+                <option value="Tasarımcı (UI/UX)">Tasarımcı (UI/UX)</option>
+                </select>
+
+                <label for="adiniz">Adınız:</label>
+                <input type="text" id="adiniz" name="Adi" required="">
+                <p></p>
+
+                <label for="discordid">Discord ID'niz:</label>
+                <input type="text" id="discordid" name="DiscordIdsi" required="">
+                <p></p>
+
+                <label for="yasiniz">Yaşınız:</label>
+                <input type="number" id="yasiniz" name="Yasi" required="" min="13">
+                <p></p>
+
+                <label for="sehiriniz">Yaşadığınız şehir (Yurtdışıysa Ülkeniz/Şehriniz şekilde yazınız):</label>
+                <input type="text" id="sehiriniz" name="Yasadigi Sehir" required="">
+                <p></p>
+
+                <label for="aciklama">Kendinizden bahsediniz (İlgi alanlarınız, çevrimiçi kalma süreniz vb.):</label>
+                <textarea id="aciklama" name="Kendi" required=""></textarea>
+                <p></p>
+
+                <label for="faydalari">Bize sağlayacağın faydalar (Yazılımcı, çevirmen yada tasarımcı olarak başvuruyorsanız hangi dilde/programda çalıştığınızı belirtiniz.):</label>
+                <textarea id="faydalari" name="Faydalari" rows="5" cols="50" required=""></textarea>
+                <p></p>
+    
+                <label for="bilgi">İşinizdeki profesyonelliğiniz (Az/Orta/Çok):</label>
+                <input type="text" id="profesyonellik" name="Profesyonelligi" required="">
+                <p></p>
+    
+                <label for="email">E-postanız (Size ulaşabileceğimiz bir e-posta adresi):</label>
+                <input type="email" id="email" name="Eposta" required="">
+                <p></p>
+
+                <input type="submit" value="Başvur">
+                <p></p>
+                
+            </form>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
